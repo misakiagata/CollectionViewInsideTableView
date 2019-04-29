@@ -52,15 +52,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 4
-//        if collectionView.tag == 0 {
-//            return 4
-//        } else if collectionView.tag == 1 {
-//            return 4
-//        } else if collectionView.tag == 2 {
-//            return 4
-//        } else {
-//            return 1
-//        }
+
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
